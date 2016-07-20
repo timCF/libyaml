@@ -1,5 +1,5 @@
 #!/bin/bash
 make
-cp -rv ./* priv/
+cp -rv src/.libs/* priv/
 #cp examples/.libs/name_xcpmn priv/
 echo Done...
