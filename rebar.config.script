@@ -1,0 +1,2 @@
+Pwd = element(2,file:get_cwd()),
+[{port_env,[{"CFLAGS", "-I"++Pwd++"/include/"},{"LDFLAGS", "-L"++Pwd++"/src/"},{"CPPFLAGS", "-I"++Pwd++"/include/"}]}|CONFIG].
